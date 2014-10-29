@@ -1,0 +1,13 @@
+def here qbt1001;
+def port 1234;
+create route(here);
+while listen(port) (
+accept new client & router;
+
+)
+
+func route(~)
+(
+
+)
+
